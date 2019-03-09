@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "webpack": "^4.29.6",
     "@progress/kendo-ui": "^2019.1.307",
     "jquery": "^3.3.1",
     "kendo-ui-core": "^2019.1.307"

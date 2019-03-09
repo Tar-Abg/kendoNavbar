@@ -1,9 +1,9 @@
 import * as $ from "jquery";
 require ("@progress/kendo-ui/js/kendo.menu.js");
 
-export function createNavabr(){
+export function createNavabr(rootElement){
     var navBar = document.createElement("ul");
-    document.body.appendChild(navBar); 
+    rootElement.appendChild(navBar); 
     $("ul").kendoMenu({
         dataSource: [
         {
