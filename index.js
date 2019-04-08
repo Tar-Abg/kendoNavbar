@@ -1,4 +1,5 @@
-import * as $ from "jquery";
+var $ = require("jquery");
+require('./css/style.css');
 require ("@progress/kendo-ui/js/kendo.menu.js");
 
 export function createNavabr(rootElement, dataForMenu){

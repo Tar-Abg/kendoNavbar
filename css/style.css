@@ -1,0 +1,50 @@
+.k-icon{
+    font-size: 30px !important;
+    margin-bottom: 100px;
+}
+.last-item{
+    padding-top: 70px; 
+    margin-bottom: 30px;
+}
+.menuItem{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.first-menu{
+    width: 70px;
+    margin-top: 72px !important;
+    padding-top: 30px;
+    border: 0px !important;
+
+}
+.secnd-menu{
+    position: absolute;
+    top:0px;
+    width: 100vw;
+    border: 0px !important
+}
+.sencndMenuItem{
+    border: 0px !important
+}
+
+.sencndMenuItem-lastItem{
+    border: 0px !important;
+    position: absolute;
+    left:70vw;
+    padding-top: 12px;
+    padding-bottom: 23px;
+}
+.img .k-image{
+    width: auto;
+    height: 65px;
+    padding: 0px;
+    border-radius: 50%
+}
+.img .k-menu-link {
+    padding:  0px;
+    margin:  0px
+}
+.img{
+    padding:  0px;
+    border-radius: 50%
+}
