@@ -5,7 +5,9 @@
 }
 .last-item{
     padding-top: 70px; 
+    padding-bottom: 20px;
     margin-bottom: 30px;
+    
 }
 .menuItem{
     padding-top: 15px;
@@ -48,4 +50,10 @@
 .img{
     padding:  0px;
     border-radius: 50%
+}
+.k-i-reload{
+    font-size: 50px !important
+}
+.active{
+    color: #ff8500 !important
 }
