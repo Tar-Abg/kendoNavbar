@@ -1,59 +1,68 @@
-.k-icon{
-    font-size: 30px !important;
-    margin-bottom: 100px;
-    color: #02536e !important;
-}
-.last-item{
+.first-menu .last-item{
     padding-top: 70px; 
     padding-bottom: 20px;
     margin-bottom: 30px;
-    
 }
-.menuItem{
+.first-menu .menuItem{
     padding-top: 15px;
     padding-bottom: 15px;
 }
 .first-menu{
-    width: 70px;
-    margin-top: 72px !important;
-    padding-top: 30px;
+    background-color: #f9f9f9 !important;
+    width: 80px;
+    margin-top: 70px !important;
+    padding-top: 30px !important;
     border: 0px !important;
-
 }
 .secnd-menu{
+    background-color: #f9f9f9 !important;
+    height: 70px;
     position: absolute;
     top:0px;
-    width: 100vw;
+    width: 100%;
+    border: 0px !important;  
+}
+.secnd-menu .k-first{
     border: 0px !important
 }
-.sencndMenuItem{
-    border: 0px !important
-}
-
 .sencndMenuItem-lastItem{
+    padding-top: 10px;
     border: 0px !important;
-    position: absolute;
-    left:70vw;
-    padding-top: 12px;
-    padding-bottom: 23px;
+    position: relative;
+    left:84vw;
+    height: 60px !important;
+    padding-left: 5px;
+}
+.secnd-menu .sencndMenuItem-lastItem .k-link .k-image{
+    width: 40px;
 }
 .img .k-image{
-    width: auto;
-    height: 65px;
-    padding: 0px;
-    border-radius: 50%
-}
-.img .k-menu-link {
-    padding:  0px;
-    margin:  0px
+    width: 50px;
+    border-radius: 50%;
+    padding: 4px;
+    border: 1px solid #02536e;
 }
 .img{
-    padding:  0px;
-    border-radius: 50%
+    position: relative;
+    left: 84.2%;
+    border: none !important;
 }
-.k-i-reload{
-    font-size: 50px !important
+.k-first .k-link .k-image {
+    width: 58px;
+    border: 0px !important
 }
-.active{
-    color: #ff8500 !important
+.k-last .k-link .k-image{
+    width: 50px;
+    margin-left: -10px;
+}
+.first-menu .k-link svg{
+    margin-bottom: 10px;
+}
+.first-menu .k-link .line{
+    width: 45px;
+    margin-left: -7px;
+    color: #02536e;
+    background-color: #02536e;
+    border: none;
+    height: 1px;
 }
