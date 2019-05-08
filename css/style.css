@@ -66,3 +66,23 @@
     border: none;
     height: 1px;
 }
+
+@media screen and (max-width: 1500px) {
+    .img{
+        left: 80.2%;
+    }
+    .sencndMenuItem-lastItem{
+        left:80vw;
+    }
+  }
+  @media screen and (max-width: 1290px) {
+    .first-menu{
+        width: 70px;
+    }
+    .img{
+        left: 78%;
+    }
+    .sencndMenuItem-lastItem{
+        left:76vw;
+    }
+  }
